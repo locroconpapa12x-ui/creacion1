@@ -1,0 +1,169 @@
+---- Minecraft Crash Report ----
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 2025-11-29 01:01:41
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.4.0-universal.jar%23224!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.4.0-universal.jar%23224!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2367!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2367!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2367!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap.rehash(Object2ObjectOpenHashMap.java:1275) ~[fastutil-8.5.9.jar%2388!/:?] {}
+-- MOD architectury --
+Details:
+	Mod File: /workspaces/creacion1/servidor_minecraft/mods/architectury-9.2.14-forge.jar
+	Failure message: Architectury (architectury) encountered an error during the common_setup event phase
+		java.lang.ArrayIndexOutOfBoundsException: Index 2048 out of bounds for length 1025
+	Mod Version: 9.2.14
+	Mod Issue URL: https://github.com/shedaniel/architectury/issues
+	Exception message: java.lang.ArrayIndexOutOfBoundsException: Index 2048 out of bounds for length 1025
+Stacktrace:
+	at it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap.rehash(Object2ObjectOpenHashMap.java:1275) ~[fastutil-8.5.9.jar%2388!/:?] {}
+	at it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap.insert(Object2ObjectOpenHashMap.java:245) ~[fastutil-8.5.9.jar%2388!/:?] {}
+	at it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap.put(Object2ObjectOpenHashMap.java:253) ~[fastutil-8.5.9.jar%2388!/:?] {}
+	at net.minecraft.world.level.block.DispenserBlock.m_52672_(DispenserBlock.java:48) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:farmersdelight.mixins.json:CuttingBoardDispenserMixin,pl:mixin:APP:create.mixins.json:accessor.DispenserBlockAccessor,pl:mixin:A}
+	at com.github.teamfossilsarcheology.fossil.event.ModEvents.lambda$init$4(ModEvents.java:90) ~[fossil-forge-1.20.1-9.3.0.2.jar%23182!/:9.3.0.2] {re:classloading}
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732) ~[?:?] {re:mixin}
+	at dev.architectury.event.EventFactory.invokeMethod(EventFactory.java:53) ~[architectury-9.2.14-forge.jar%23161!/:?] {re:classloading}
+	at dev.architectury.event.EventFactory$1.handleInvocation(EventFactory.java:62) ~[architectury-9.2.14-forge.jar%23161!/:?] {re:classloading}
+	at com.google.common.reflect.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:87) ~[guava-31.1-jre.jar%2372!/:?] {}
+	at jdk.proxy3.$Proxy66.run(Unknown Source) ~[?:?] {}
+	at dev.architectury.event.forge.EventHandlerImplCommon$ModBasedEventHandler.event(EventHandlerImplCommon.java:446) ~[architectury-9.2.14-forge.jar%23161!/:?] {re:classloading}
+	at dev.architectury.event.forge.__ModBasedEventHandler_event_FMLCommonSetupEvent.invoke(.dynamic) ~[architectury-9.2.14-forge.jar%23161!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2350!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2350!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2350!/:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:121) ~[javafmllanguage-1.20.1-47.4.0.jar%23221!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:127) ~[fmlcore-1.20.1-47.4.0.jar%23220!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 17.0.17, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 2979048448 bytes (2841 MiB) / 5511315456 bytes (5256 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 4
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar OptiFine TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		CyclopsCore-1.20.1-1.20.1.jar                     |Cyclops Core                  |cyclopscore                   |1.20.1              |SIDED_SETU|Manifest: NOSIGNATURE
+		mowziesmobs-1.7.3.jar                             |Mowzie's Mobs                 |mowziesmobs                   |1.7.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		kuma-api-forge-20.1.12+1.20.1.jar                 |KumaAPI                       |kuma_api                      |20.1.12             |SIDED_SETU|Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.8.2.jar                   |GeckoLib 4                    |geckolib                      |4.8.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		botarium-forge-1.20.1-2.3.3.jar                   |Botarium                      |botarium                      |2.3.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.106.jar                  |Just Enough Items             |jei                           |15.20.0.106         |SIDED_SETU|Manifest: NOSIGNATURE
+		lithostitched-forge-1.20.1-1.4.10.jar             |Lithostitched                 |lithostitched                 |1.4.9               |SIDED_SETU|Manifest: NOSIGNATURE
+		naturalist-5.0pre2+forge-1.20.1.jar               |Naturalist                    |naturalist                    |5.0pre2             |SIDED_SETU|Manifest: NOSIGNATURE
+		sophisticatedcore-1.20.1-1.2.68.1003.jar          |Sophisticated Core            |sophisticatedcore             |1.2.68.1003         |SIDED_SETU|Manifest: NOSIGNATURE
+		waystones-forge-1.20.1-14.1.17.jar                |Waystones                     |waystones                     |14.1.17             |SIDED_SETU|Manifest: NOSIGNATURE
+		citadel-2.6.1-1.20.1.jar                          |Citadel                       |citadel                       |2.6.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		artifacts-forge-9.5.16.jar                        |Artifacts                     |artifacts                     |9.5.16              |SIDED_SETU|Manifest: NOSIGNATURE
+		EvilCraft-1.20.1-1.2.54.jar                       |EvilCraft                     |evilcraft                     |1.2.54              |SIDED_SETU|Manifest: NOSIGNATURE
+		Dungeon Crawl-1.20.1-2.3.15.jar                   |Dungeon Crawl                 |dungeoncrawl                  |2.3.15              |SIDED_SETU|Manifest: NOSIGNATURE
+		spawnermod-1.20.1-1.9.3+Forge.jar                 |Enhanced Mob Spawners         |spawnermod                    |1.9.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.20.1-3.23.19.1251.jar    |Sophisticated Backpacks       |sophisticatedbackpacks        |3.23.19.1251        |SIDED_SETU|Manifest: NOSIGNATURE
+		midnightlib-1.4.2-forge.jar                       |MidnightLib                   |midnightlib                   |1.4.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		morehitboxes-forge-1.20.1-1.9.2.jar               |morehitboxes                  |morehitboxes                  |1.9.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		balm-forge-1.20.1-7.3.37-all.jar                  |Balm                          |balm                          |7.3.37              |SIDED_SETU|Manifest: NOSIGNATURE
+		carryon-forge-1.20.1-2.1.2.7.jar                  |Carry On                      |carryon                       |2.1.2.7             |SIDED_SETU|Manifest: NOSIGNATURE
+		imst-2.1.0.jar                                    |Immersive Structures          |imst                          |2.1.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |SIDED_SETU|Manifest: NOSIGNATURE
+		[forge]ctov-3.4.12.jar                            |ChoiceTheorem's Overhauled Vil|ctov                          |3.4.12              |SIDED_SETU|Manifest: NOSIGNATURE
+		tl_skin_cape_forge_1.20-1.38.jar                  |TLSkinCape                    |tlskincape                    |1.38                |SIDED_SETU|Manifest: ef:fe:e7:59:91:bb:3a:06:c1:94:f4:f3:9c:3e:26:69:47:fa:2e:c5:53:d3:38:21:65:cc:04:75:e7:61:19:40
+		DungeonsArise-1.20.x-2.1.58-release.jar           |When Dungeons Arise           |dungeons_arise                |2.1.58-1.20.x       |SIDED_SETU|Manifest: NOSIGNATURE
+		server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |SIDED_SETU|Manifest: NOSIGNATURE
+		sky_whale_ship-1.20.1.jar                         |Sky Whale Ship                |sky_whale_ship                |1.0.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		dungeons_and_combat-1.2.3-forge-1.20.1.jar        |dungeons and combat           |dungeons_and_combat           |1.2.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		evenbetternether-1.3.1-forge-1.20.1.jar           |Even Better Nether            |evenbetternether              |1.3.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		TConstruct-1.20.1-3.10.2.92.jar                   |Tinkers' Construct            |tconstruct                    |3.10.2.92           |SIDED_SETU|Manifest: NOSIGNATURE
+		FarmersDelight-1.20.1-1.2.9.jar                   |Farmer's Delight              |farmersdelight                |1.20.1-1.2.9        |SIDED_SETU|Manifest: NOSIGNATURE
+		alexscaves-2.0.2.jar                              |Alex's Caves                  |alexscaves                    |2.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		TerraBlender-forge-1.20.1-3.0.1.10.jar            |TerraBlender                  |terrablender                  |3.0.1.10            |SIDED_SETU|Manifest: NOSIGNATURE
+		silent-lib-1.20.1-8.0.0.jar                       |Silent Lib                    |silentlib                     |8.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		threateningly_mobs-1.0.9.7-forge-1.20.1.jar       |Threateningly mobs            |threateningly_mobs            |1.0.9.7             |SIDED_SETU|Manifest: NOSIGNATURE
+		Jade-1.20.1-Forge-11.12.3.jar                     |Jade                          |jade                          |11.12.3+forge       |SIDED_SETU|Manifest: NOSIGNATURE
+		Oh-The-Trees-Youll-Grow-forge-1.20.1-1.4.2.jar    |Oh The Trees You'll Grow      |ohthetreesyoullgrow           |1.4.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		eeeabsmobs-1.20.1-0.97-Fix.jar                    |EEEAB's Mobs                  |eeeabsmobs                    |1.20.1-0.97         |SIDED_SETU|Manifest: NOSIGNATURE
+		Corgilib-Forge-1.20.1-4.0.3.3.jar                 |CorgiLib                      |corgilib                      |4.0.3.3             |SIDED_SETU|Manifest: NOSIGNATURE
+		Oh-The-Biomes-Weve-Gone-Forge-1.7.1.jar           |Oh The Biomes We've Gone      |biomeswevegone                |1.7.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		weaponmaster-1.4.3-1.20.1.jar                     |Weapon Master                 |weaponmaster                  |1.4.3-1.20.1        |SIDED_SETU|Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.20.1-2.1.1.jar          |Resourcefulconfig             |resourcefulconfig             |2.1.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		lionfishapi-2.4-Fix.jar                           |LionfishAPI                   |lionfishapi                   |2.4-Fix             |SIDED_SETU|Manifest: NOSIGNATURE
+		extragolems-20.1.0.2.jar                          |Extra Golems                  |golems                        |20.1.0.2            |SIDED_SETU|Manifest: NOSIGNATURE
+		cluttered-2.1-1.20.1.jar                          |Cluttered                     |luphieclutteredmod            |2.1                 |SIDED_SETU|Manifest: NOSIGNATURE
+		L_Enders_Cataclysm-2.58- 1.20.1.jar               |Cataclysm Mod                 |cataclysm                     |2.58                |SIDED_SETU|Manifest: NOSIGNATURE
+		curios-forge-5.14.1+1.20.1.jar                    |Curios API                    |curios                        |5.14.1+1.20.1       |SIDED_SETU|Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-1.0.2.jar                   |Flywheel                      |flywheel                      |1.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		Ponder-Forge-1.20.1-1.0.52.jar                    |Ponder                        |ponder                        |1.0.52              |SIDED_SETU|Manifest: NOSIGNATURE
+		create-1.20.1-6.0.4.jar                           |Create                        |create                        |6.0.4               |SIDED_SETU|Manifest: NOSIGNATURE
+		Patchouli-1.20.1-84.1-FORGE.jar                   |Patchouli                     |patchouli                     |1.20.1-84.1-FORGE   |SIDED_SETU|Manifest: NOSIGNATURE
+		Mantle-1.20.1-1.11.79.jar                         |Mantle                        |mantle                        |1.11.79             |SIDED_SETU|Manifest: NOSIGNATURE
+		Xaeros_Minimap_25.2.10_Forge_1.20.jar             |Xaero's Minimap               |xaerominimap                  |25.2.10             |SIDED_SETU|Manifest: NOSIGNATURE
+		resourcefullib-forge-1.20.1-2.1.29.jar            |Resourceful Lib               |resourcefullib                |2.1.29              |SIDED_SETU|Manifest: NOSIGNATURE
+		upgradedcore-1.20.1-5.0.0.2-release.jar           |Upgraded Core                 |upgradedcore                  |1.20.1-5.0.0.2-relea|SIDED_SETU|Manifest: NOSIGNATURE
+		SpartanWeaponry-1.20.1-forge-3.2.1-all.jar        |Spartan Weaponry              |spartanweaponry               |3.2.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |ERROR     |Manifest: NOSIGNATURE
+		minecraft-comes-alive-7.6.8+1.20.1-universal.jar  |Minecraft Comes Alive         |mca                           |7.6.8+1.20.1        |SIDED_SETU|Manifest: NOSIGNATURE
+		fossil-forge-1.20.1-9.3.0.2.jar                   |Fossils and Archeology: Reviva|fossil                        |9.3.0.2             |SIDED_SETU|Manifest: NOSIGNATURE
+		justhammers-forge-2.0.3+mc1.20.1.jar              |Just Hammers                  |justhammers                   |2.0.3+mc1.20.1      |SIDED_SETU|Manifest: NOSIGNATURE
+		ScalingHealth-1.20.1-8.0.2+9.jar                  |Scaling Health                |scalinghealth                 |8.0.2+9             |SIDED_SETU|Manifest: NOSIGNATURE
+		forge-1.20.1-47.4.0-universal.jar                 |Forge                         |forge                         |47.4.0              |SIDED_SETU|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		Zeta-1.0-28.jar                                   |Zeta                          |zeta                          |1.0-28              |SIDED_SETU|Manifest: NOSIGNATURE
+		Quark-4.0-462.jar                                 |Quark                         |quark                         |4.0-462             |SIDED_SETU|Manifest: NOSIGNATURE
+		expandability-9.0.0.jar                           |ExpandAbility                 |expandability                 |9.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		ad_astra-forge-1.20.1-1.15.20.jar                 |Ad Astra                      |ad_astra                      |1.15.20             |SIDED_SETU|Manifest: NOSIGNATURE
+	Crash Report UUID: 3f47f21e-f490-4911-98d0-c8316aba1df5
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.0
