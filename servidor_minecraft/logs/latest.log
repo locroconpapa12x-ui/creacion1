@@ -1,0 +1,733 @@
+[30Dec2025 03:03:32.057] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.13, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[30Dec2025 03:03:32.061] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[30Dec2025 03:03:32.567] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Dec2025 03:03:32.614] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/creacion1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Dec2025 03:03:32.936] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/creacion1/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[30Dec2025 03:03:33.041] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/creacion1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.13/fmlcore-1.20.1-47.4.13.jar is missing mods.toml file
+[30Dec2025 03:03:33.042] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/creacion1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.13/javafmllanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[30Dec2025 03:03:33.043] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/creacion1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.13/lowcodelanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[30Dec2025 03:03:33.044] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/creacion1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.13/mclanguage-1.20.1-47.4.13.jar is missing mods.toml file
+[30Dec2025 03:03:33.906] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[30Dec2025 03:03:33.908] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 42 dependencies adding them to mods collection
+[30Dec2025 03:03:34.307] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[30Dec2025 03:03:34.336] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[30Dec2025 03:03:34.347] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[30Dec2025 03:03:34.358] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/creacion1/servidor_minecraft/mods/scripts as it did not exist.
+[30Dec2025 03:03:34.373] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[30Dec2025 03:03:37.202] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 2823ms
+[30Dec2025 03:03:37.203] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[30Dec2025 03:03:37.543] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Dec2025 03:03:37.649] [main/ERROR] [mixin/]: Mixin config scaling_mobs.mixin.json does not specify "minVersion" property
+[30Dec2025 03:03:37.843] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[30Dec2025 03:03:38.058] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 148 options available, 0 override(s) found
+[30Dec2025 03:03:38.217] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Dec2025 03:03:38.262] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Dec2025 03:03:38.317] [main/INFO] [Puzzles Lib/]: Loading 103 mods:
+	- almanac 1.0.2
+	- architectury 9.2.14
+	- athena 3.1.2
+	- atlaslib 1.1.12
+	- auudio 1.0.3
+	- badmobs 19.0.4
+	- better_mob_food 1.0.0
+	- better_zombie_drops 1.0.0
+	- betterfpsdist 1.20.1-6.0
+	- bookshelf 20.2.13
+	- charmofundying 6.5.0+1.20.1
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- cofh_core 11.0.2
+	- collective 7.87
+	- commongroovylibrary 0.3.3
+	- configurableextramobdrops 3.4
+	- controlling 12.0.2
+	- corgilib 4.0.3.3
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.19
+	- creativecore 2.12.28
+	- cupboard 1.20.1-2.7
+	- curios 5.11.1+1.20.1
+	- cw_additions 1.1.6
+	- dimension_access_manager 3.1.0
+	- drippyloadingscreen 3.0.9
+	- dynamic_fps 3.9.2
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- fancymenu 3.3.2
+	- fastasyncworldsave 1.20.1-2.4
+	- fastbench 8.0.4
+	- fastboot 1.2
+	- fastfurnace 8.0.2
+	- fastload 3.4.0
+	- fastpaintings 1.20-1.2.7
+	- ferritecore 6.0.1
+	- firstjoinmessage 3.6
+	- forge 47.4.13
+	- forgivingworld 1.20.1-4.7
+	- framework 0.7.12
+	- geckolib 4.7
+	- glitchcore 0.0.1.1
+	- gml 4.0.9
+	- immediatelyfast 1.5.0+1.20.4
+	- immersive_weathering 1.20.1-2.0.5
+	- incontrol 1.20-9.2.11
+	- insanelib 1.16.1
+	- itemblacklist 1.20.1-1.0.0f
+	- jei 15.20.0.105
+	- jeresources 1.4.0.247
+	- justzoom 2.0.0
+	- keerdm_zombie_essentials 1.4
+	- konkrete 1.8.0
+	- kotlinforforge 4.11.0
+	- kubejs 2001.6.5-build.16
+	- last_of_us 2.5
+	- letmedespawn 1.4.4
+	- lootr 0.7.35.90
+	- lostcities 1.20-7.3.5
+	- marbledsarsenal 1.20.1-2.3.0
+	- marbledsmelees 1.20.1-1.0.0
+	- mca 7.6.13+1.20.1
+	- mcore 1.0.3.0
+	- melody 1.0.2
+	- minecraft 1.20.1
+	- mobsunscreen 3.1.1
+	- moonlight 1.20-2.13.47
+	- mousetweaks 2.25.1
+	- mutantmonsters 8.0.7
+	- nerb 0.4.1
+	- no_ruined_nether_portals 1.0.0
+	- nobabyzombies1_20_1forge 1.1
+	- noisium 2.3.0+mc1.20-1.20.1
+	- nonetherportal 1.20.1-1.0
+	- octolib 0.4.2
+	- openloader 19.0.4
+	- overworld_netherite_ore 1.0
+	- packetfixer 1.4.3
+	- pandalib 0.4.2
+	- patchouli 1.20.1-84-FORGE
+	- placebo 8.6.2
+	- playeranimator 1.0.2-rc1+1.20
+	- pointblank 1.9.6
+	- polymorph 0.49.8+1.20.1
+		\-- spectrelib 0.13.17+1.20.1
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- resourcefullib 2.1.29
+	- rhino 2001.2.3-build.6
+	- scalingmobs 2.2.2
+	- searchables 1.0.3
+	- securitycraft 1.10.1
+	- smoothboot 0.0.4
+	- starterkit 7.1
+	- structure_gel 2.16.2
+	- tacz 1.0.3
+		\-- mixinextras 0.3.6
+	- tenshilib 1.20.1-1.7.6
+	- the_deep_void 1.28
+	- unilib 1.0.4
+	- uteamcore 5.1.4.346
+[30Dec2025 03:03:38.342] [main/WARN] [mixin/]: Reference map 'packetfixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Dec2025 03:03:38.547] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[30Dec2025 03:03:38.597] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[30Dec2025 03:03:39.824] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[30Dec2025 03:03:39.825] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[30Dec2025 03:03:39.825] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[30Dec2025 03:03:39.904] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[30Dec2025 03:03:39.906] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[30Dec2025 03:03:39.906] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[30Dec2025 03:03:40.183] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[30Dec2025 03:03:40.544] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[30Dec2025 03:03:41.189] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[30Dec2025 03:03:41.190] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[30Dec2025 03:03:42.732] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[30Dec2025 03:03:42.733] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[30Dec2025 03:03:46.159] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[30Dec2025 03:03:46.389] [modloading-worker-0/WARN] [auudio/Auudio/]: WARNING: Auudio is a client mod and has no effect when loaded on a server!
+[30Dec2025 03:03:46.443] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[30Dec2025 03:03:46.484] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[30Dec2025 03:03:46.491] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[30Dec2025 03:03:46.494] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[30Dec2025 03:03:46.522] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[30Dec2025 03:03:46.536] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[30Dec2025 03:03:46.537] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[30Dec2025 03:03:46.537] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[30Dec2025 03:03:46.537] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[30Dec2025 03:03:46.538] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[30Dec2025 03:03:46.539] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[30Dec2025 03:03:46.539] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[30Dec2025 03:03:46.536] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[30Dec2025 03:03:46.543] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[30Dec2025 03:03:46.560] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[30Dec2025 03:03:46.617] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
+[30Dec2025 03:03:46.702] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.87.
+[30Dec2025 03:03:46.718] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[30Dec2025 03:03:46.747] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
+[30Dec2025 03:03:46.825] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[30Dec2025 03:03:46.828] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pandalib:config_sync
+[30Dec2025 03:03:46.842] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[30Dec2025 03:03:46.864] [modloading-worker-0/INFO] [unilib/]: Disabling UniLib, as it is client side only.
+[30Dec2025 03:03:46.964] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[30Dec2025 03:03:47.043] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[30Dec2025 03:03:47.044] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[30Dec2025 03:03:47.056] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[30Dec2025 03:03:47.067] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[30Dec2025 03:03:47.090] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[30Dec2025 03:03:47.090] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[30Dec2025 03:03:47.099] [modloading-worker-0/INFO] [KubeJS/]: Done in 36.60 ms
+[30Dec2025 03:03:47.423] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/creacion1/servidor_minecraft/config/immersive_weathering-common.toml is not correct. Correcting
+[30Dec2025 03:03:47.430] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.431] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.block_growths was corrected from null to its default, true. 
+[30Dec2025 03:03:47.431] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.block_growth_blacklist was corrected from null to its default, []. 
+[30Dec2025 03:03:47.434] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.creative_tab was corrected from null to its default, false. 
+[30Dec2025 03:03:47.434] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.drop_in_creative was corrected from null to its default, false. 
+[30Dec2025 03:03:47.434] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debug_save_dynamic_pack was corrected from null to its default, false. 
+[30Dec2025 03:03:47.435] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.435] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.interest_for_face was corrected from null to its default, 0.3. 
+[30Dec2025 03:03:47.436] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.patchiness was corrected from null to its default, 0.5. 
+[30Dec2025 03:03:47.437] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.immune_chance was corrected from null to its default, 0.4. 
+[30Dec2025 03:03:47.437] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.needs_air was corrected from null to its default, true. 
+[30Dec2025 03:03:47.437] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.enabled was corrected from null to its default, true. 
+[30Dec2025 03:03:47.438] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.438] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.cracking_drops_brick was corrected from null to its default, false. 
+[30Dec2025 03:03:47.438] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.interest_for_face was corrected from null to its default, 0.6. 
+[30Dec2025 03:03:47.438] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.patchiness was corrected from null to its default, 0.4. 
+[30Dec2025 03:03:47.439] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.immune_chance was corrected from null to its default, 0.4. 
+[30Dec2025 03:03:47.439] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.needs_air was corrected from null to its default, false. 
+[30Dec2025 03:03:47.439] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.enabled was corrected from null to its default, true. 
+[30Dec2025 03:03:47.443] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key icicle was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.443] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key icicle.react_to_vibrations was corrected from null to its default, true. 
+[30Dec2025 03:03:47.443] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key icicle.spawn_rarity was corrected from null to its default, 12. 
+[30Dec2025 03:03:47.443] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key icicle.disable_icicles was corrected from null to its default, false. 
+[30Dec2025 03:03:47.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key freezing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key freezing.icicle was corrected from null to its default, 300. 
+[30Dec2025 03:03:47.445] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key charring was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.445] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key charring.fire_chars_wood was corrected from null to its default, 0.3. 
+[30Dec2025 03:03:47.446] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key charring.soot_spawn was corrected from null to its default, true. 
+[30Dec2025 03:03:47.446] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key charring.flammable_cobweb was corrected from null to its default, true. 
+[30Dec2025 03:03:47.447] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.447] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.pickaxe_cracking was corrected from null to its default, true. 
+[30Dec2025 03:03:47.447] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.pickaxe_cracking_shift was corrected from null to its default, false. 
+[30Dec2025 03:03:47.448] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.brick_breaking was corrected from null to its default, true. 
+[30Dec2025 03:03:47.448] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.azalea_shearing was corrected from null to its default, true. 
+[30Dec2025 03:03:47.448] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.moss_shearing was corrected from null to its default, true. 
+[30Dec2025 03:03:47.448] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.moss_burning was corrected from null to its default, true. 
+[30Dec2025 03:03:47.448] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.shovel_extinguish was corrected from null to its default, true. 
+[30Dec2025 03:03:47.448] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.sponge_rusting was corrected from null to its default, true. 
+[30Dec2025 03:03:47.448] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.sponge_rust_drying was corrected from null to its default, false. 
+[30Dec2025 03:03:47.448] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.axe_stripping was corrected from null to its default, true. 
+[30Dec2025 03:03:47.449] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.axe_rusting was corrected from null to its default, true. 
+[30Dec2025 03:03:47.449] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key food was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.449] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key food.icicle_food was corrected from null to its default, true. 
+[30Dec2025 03:03:47.450] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key food.icicle_fire_resistance was corrected from null to its default, true. 
+[30Dec2025 03:03:47.450] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.451] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.composter_dirt was corrected from null to its default, true. 
+[30Dec2025 03:03:47.453] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.grass_over_mycelium was corrected from null to its default, true. 
+[30Dec2025 03:03:47.455] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.mycelium_over_grass was corrected from null to its default, true. 
+[30Dec2025 03:03:47.455] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.generic_bark was corrected from null to its default, . 
+[30Dec2025 03:03:47.455] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.leggings_prevents_thorn_damage was corrected from null to its default, true. 
+[30Dec2025 03:03:47.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.leaf_piles_slow was corrected from null to its default, true. 
+[30Dec2025 03:03:47.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.spawn_entity_from_decay was corrected from null to its default, 0.3. 
+[30Dec2025 03:03:47.459] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.reach was corrected from null to its default, 12. 
+[30Dec2025 03:03:47.460] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.max_pile_height was corrected from null to its default, 3. 
+[30Dec2025 03:03:47.460] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.leaf_piles_blacklist was corrected from null to its default, []. 
+[30Dec2025 03:03:47.461] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key thin_ice was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.572] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key thin_ice.natural_melting was corrected from null to its default, false. 
+[30Dec2025 03:03:47.573] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lightning_growths was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.574] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lightning_growths.vitrified_lightning was corrected from null to its default, true. 
+[30Dec2025 03:03:47.574] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lightning_growths.fulgurite_chance was corrected from null to its default, 0.4. 
+[30Dec2025 03:03:47.575] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:47.576] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting.rusting was corrected from null to its default, true. 
+[30Dec2025 03:03:47.576] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting.rusting_influence_radius was corrected from null to its default, 4. 
+[30Dec2025 03:03:47.577] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting.rusting_rate was corrected from null to its default, 0.06. 
+[30Dec2025 03:03:47.577] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting.rust_streaking was corrected from null to its default, true. 
+[30Dec2025 03:03:47.703] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[30Dec2025 03:03:47.727] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[30Dec2025 03:03:47.735] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[30Dec2025 03:03:47.939] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.13, for MC 1.20.1 with MCP 20230612.114412
+[30Dec2025 03:03:47.943] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.13 Initialized
+[30Dec2025 03:03:47.951] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.242 s
+[30Dec2025 03:03:48.093] [modloading-worker-0/INFO] [de.keksuccino.drippyloadingscreen.DrippyLoadingScreen/]: [DRIPPY LOADING SCREEN] Loading v3.0.9 in server-side mode on FORGE!
+[30Dec2025 03:03:48.887] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[30Dec2025 03:03:48.893] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.1 s
+[30Dec2025 03:03:48.904] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.944 s with 0 errors and 0 warnings
+[30Dec2025 03:03:49.018] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.3.2 in server-side mode on FORGE!
+[30Dec2025 03:03:49.068] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[30Dec2025 03:03:49.090] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[30Dec2025 03:03:49.116] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[30Dec2025 03:03:49.165] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[30Dec2025 03:03:49.197] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[30Dec2025 03:03:49.215] [modloading-worker-0/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: Packet Fixer has been initialized successfully
+[30Dec2025 03:03:49.367] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[30Dec2025 03:03:50.180] [main/INFO] [Moonlight/]: Initialized block sets in 12ms
+[30Dec2025 03:03:50.639] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[30Dec2025 03:03:50.650] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[30Dec2025 03:03:50.653] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[30Dec2025 03:03:50.656] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[30Dec2025 03:03:50.746] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.746] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.747] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.747] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.747] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.747] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.747] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.747] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:03:50.749] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.750] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.750] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.750] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.750] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.750] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.751] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.751] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.751] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.751] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.751] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.751] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:03:50.752] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.756] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.756] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:03:50.756] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.757] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:03:50.757] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:03:50.757] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.757] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.758] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.758] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.758] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.760] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.766] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.766] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.768] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.768] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.768] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:03:50.769] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:03:50.815] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[30Dec2025 03:03:50.838] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Lost Cities
+[30Dec2025 03:03:50.838] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Lost Cities
+[30Dec2025 03:03:50.954] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[30Dec2025 03:03:51.012] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[30Dec2025 03:03:51.032] [modloading-worker-0/INFO] [com.forgivingworld.ForgivingWorldMod/]: forgivingworld mod initialized
+[30Dec2025 03:03:51.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[30Dec2025 03:03:51.139] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[30Dec2025 03:03:51.149] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[30Dec2025 03:03:51.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[30Dec2025 03:03:51.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[30Dec2025 03:03:51.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[30Dec2025 03:03:51.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[30Dec2025 03:03:51.955] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 5.1.4.346 Target: 5.1.4.382
+[30Dec2025 03:03:51.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[30Dec2025 03:03:52.168] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[30Dec2025 03:03:52.168] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[30Dec2025 03:03:52.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.19 Target: 1.20.1-1.0.23
+[30Dec2025 03:03:52.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
+[30Dec2025 03:03:52.832] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.9 Target: null
+[30Dec2025 03:03:52.832] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[30Dec2025 03:03:52.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[30Dec2025 03:03:52.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/Atlas-Lib/1.20/update.json
+[30Dec2025 03:03:52.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Found status: UP_TO_DATE Current: 1.1.12 Target: null
+[30Dec2025 03:03:52.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=forge
+[30Dec2025 03:03:53.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Found status: OUTDATED Current: 3.9.2 Target: 3.9.5
+[30Dec2025 03:03:53.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unilib] Starting version check at https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/UniLib/update.json
+[30Dec2025 03:03:53.346] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unilib] Found status: AHEAD Current: 1.0.4 Target: null
+[30Dec2025 03:03:53.346] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[30Dec2025 03:03:53.449] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.13.jar%23298!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.13.jar%23298!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Dec2025 03:03:53.453] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[30Dec2025 03:03:53.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[30Dec2025 03:03:53.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[30Dec2025 03:03:53.557] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: OUTDATED Current: 8.0.7 Target: 8.0.8
+[30Dec2025 03:03:53.557] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[30Dec2025 03:03:53.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[30Dec2025 03:03:53.661] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[30Dec2025 03:03:53.770] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[30Dec2025 03:03:53.770] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[30Dec2025 03:03:53.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[30Dec2025 03:03:53.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Dec2025 03:03:53.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.13 Target: null
+[30Dec2025 03:03:53.883] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/main/cofh_core/update.json
+[30Dec2025 03:03:53.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 11.0.2 Target: null
+[30Dec2025 03:03:53.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[30Dec2025 03:03:53.985] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.47 Target: null
+[30Dec2025 03:03:53.985] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smoothboot] Starting version check at https://github.com/AbdElAziz333/SmoothBoot-Reloaded/raw/mc1.20.1/dev/updates.json
+[30Dec2025 03:03:54.011] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smoothboot] Found status: UP_TO_DATE Current: 0.0.4 Target: null
+[30Dec2025 03:03:54.011] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[30Dec2025 03:03:54.085] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[30Dec2025 03:03:54.085] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[30Dec2025 03:03:54.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.25 Target: 8.1.33
+[30Dec2025 03:03:54.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Starting version check at https://api.modrinth.com/updates/packet-fixer/forge_updates.json
+[30Dec2025 03:03:54.132] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[30Dec2025 03:03:54.133] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[30Dec2025 03:03:54.133] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[30Dec2025 03:03:54.133] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[30Dec2025 03:03:54.133] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[30Dec2025 03:03:54.133] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[30Dec2025 03:03:54.133] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[30Dec2025 03:03:54.133] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[30Dec2025 03:03:54.179] [main/INFO] [Moonlight/]: Initialized color sets in 31ms
+[30Dec2025 03:03:54.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Found status: OUTDATED Current: 1.4.3 Target: 3.3.1
+[30Dec2025 03:03:54.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Starting version check at https://updates.blamejared.com/get?n=openloader&gv=1.20.1
+[30Dec2025 03:03:54.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[30Dec2025 03:03:54.330] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/creacion1/servidor_minecraft/config/badmobs-common.toml is not correct. Correcting
+[30Dec2025 03:03:54.336] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:54.338] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_icicle was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:54.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_icicle.allowNormalSpawning was corrected from null to its default, true. 
+[30Dec2025 03:03:54.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_icicle.allowSpawners was corrected from null to its default, true. 
+[30Dec2025 03:03:54.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_icicle.allowSpawnEggs was corrected from null to its default, true. 
+[30Dec2025 03:03:54.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_icicle.allowConversions was corrected from null to its default, true. 
+[30Dec2025 03:03:54.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_layer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:54.340] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_layer.allowNormalSpawning was corrected from null to its default, true. 
+[30Dec2025 03:03:54.343] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_layer.allowSpawners was corrected from null to its default, true. 
+[30Dec2025 03:03:54.343] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_layer.allowSpawnEggs was corrected from null to its default, true. 
+[30Dec2025 03:03:54.343] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_layer.allowConversions was corrected from null to its default, true. 
+[30Dec2025 03:03:54.343] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_propagule was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:03:54.344] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_propagule.allowNormalSpawning was corrected from null to its default, true. 
+[30Dec2025 03:03:54.344] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_propagule.allowSpawners was corrected from null to its default, true. 
+[30Dec2025 03:03:54.344] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_propagule.allowSpawnEggs was corrected from null to its default, true. 
+[30Dec2025 03:03:54.344] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key immersive_weathering.falling_propagule.allowConversions was corrected from null to its default, true. 
+[30Dec2025 03:03:57.417] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Dec2025 03:03:57.995] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/creacion1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23297!/assets/.mcassetsroot' uses unexpected schema
+[30Dec2025 03:03:57.995] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/creacion1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23297!/data/.mcassetsroot' uses unexpected schema
+[30Dec2025 03:03:58.042] [main/INFO] [Open Loader/]: Preparing Data Pack injection.
+[30Dec2025 03:03:58.042] [main/INFO] [Open Loader/]: Successfully injected 0/0 packs from /workspaces/creacion1/servidor_minecraft/config/openloader/data.
+[30Dec2025 03:03:58.059] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack Immersive Weathering Generated Pack, loading it automatically
+[30Dec2025 03:03:58.059] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack mutantmonsters:biome_modifications, loading it automatically
+[30Dec2025 03:03:58.060] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack pointblank_resources, loading it automatically
+[30Dec2025 03:03:58.104] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Generated runtime SERVER_DATA for pack Immersive Weathering Generated Pack (immersive_weathering) in: 13 ms
+[30Dec2025 03:03:58.122] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Generated runtime SERVER_DATA for pack Immersive Weathering Generated Pack (immersive_weathering) in: 0 ms
+[30Dec2025 03:03:58.149] [main/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[30Dec2025 03:03:58.150] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.001 s
+[30Dec2025 03:03:58.150] [main/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.021 s with 0 errors and 0 warnings
+[30Dec2025 03:03:58.151] [main/INFO] [KubeJS Server/]: Scripts loaded
+[30Dec2025 03:03:58.953] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: Failed to parse level-type lostcities_bop, defaulting to minecraft:normal
+[30Dec2025 03:03:59.585] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_3 as it is missing following references: netherite_ore_mod:ancientdebrisore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar), 
+	netherite_ore_mod:deepslate_ancient_debris_ore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar), 
+	netherite_ore_mod:netherite_ancient_debris_ore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar)
+[30Dec2025 03:04:00.663] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe mcore:titanium_sheet_pressing as it's serializer returned null
+[30Dec2025 03:04:00.664] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe mcore:steel_sheet_pressing as it's serializer returned null
+[30Dec2025 03:04:00.667] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe overworld_netherite_ore:create_custom_shard_craft
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.13.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.13.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.13.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[30Dec2025 03:04:00.682] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe overworld_netherite_ore:create_deepslate_craft
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23297!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.13.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.13.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.13.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[30Dec2025 03:04:00.694] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[30Dec2025 03:04:00.841] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2389 advancements
+[30Dec2025 03:04:00.846] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[30Dec2025 03:04:00.854] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[30Dec2025 03:04:00.861] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[30Dec2025 03:04:00.941] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[30Dec2025 03:04:00.944] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[30Dec2025 03:04:02.300] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 78 block growths configurations
+[30Dec2025 03:04:02.305] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 14 liquid generators configurations
+[30Dec2025 03:04:02.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Dec2025 03:04:02.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Dec2025 03:04:02.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Dec2025 03:04:02.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Dec2025 03:04:02.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Dec2025 03:04:02.567] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Dec2025 03:04:02.641] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Dec2025 03:04:02.641] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Dec2025 03:04:02.641] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Dec2025 03:04:02.641] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Dec2025 03:04:02.653] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/corpse-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.653] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.653] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.654] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.only_owner was corrected from null to its default, false. 
+[30Dec2025 03:04:02.654] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.skeleton was corrected from null to its default, false. 
+[30Dec2025 03:04:02.654] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.654] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.time was corrected from null to its default, 600. 
+[30Dec2025 03:04:02.655] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.force_time was corrected from null to its default, -1. 
+[30Dec2025 03:04:02.655] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.skeleton_time was corrected from null to its default, 72000. 
+[30Dec2025 03:04:02.655] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lie_on_face was corrected from null to its default, false. 
+[30Dec2025 03:04:02.656] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.show_equipment was corrected from null to its default, true. 
+[30Dec2025 03:04:02.656] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.fall_into_void was corrected from null to its default, false. 
+[30Dec2025 03:04:02.656] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lava_damage was corrected from null to its default, false. 
+[30Dec2025 03:04:02.657] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key death_storage_duration was corrected from null to its default, -1. 
+[30Dec2025 03:04:02.658] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/dimension_access_manager-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.658] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_dimension_access_type was corrected from null to its default, GRANTED. 
+[30Dec2025 03:04:02.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimension_command_permission_level was corrected from null to its default, 3. 
+[30Dec2025 03:04:02.660] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: Loading "Dimension Access Manager" SERVER Config
+[30Dec2025 03:04:02.660] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: default_dimension_access_type = GRANTED
+[30Dec2025 03:04:02.660] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: dimension_command_permission_level = 3
+[30Dec2025 03:04:02.661] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: "Dimension Access Manager" SERVER Config loaded
+[30Dec2025 03:04:02.660] [Thread-3/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: Loading "Dimension Access Manager" SERVER Config
+[30Dec2025 03:04:02.661] [Thread-3/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: default_dimension_access_type = GRANTED
+[30Dec2025 03:04:02.661] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/curios-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.661] [Thread-3/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: dimension_command_permission_level = 3
+[30Dec2025 03:04:02.662] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key keepCurios was corrected from null to its default, DEFAULT. 
+[30Dec2025 03:04:02.662] [Thread-3/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: "Dimension Access Manager" SERVER Config loaded
+[30Dec2025 03:04:02.664] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.664] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.enableLegacyMenu was corrected from null to its default, false. 
+[30Dec2025 03:04:02.665] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.665] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.minimumColumns was corrected from null to its default, 1. 
+[30Dec2025 03:04:02.666] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.maxSlotsPerPage was corrected from null to its default, 48. 
+[30Dec2025 03:04:02.668] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/lostcities-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.669] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.669] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.specialBedBlock was corrected from null to its default, minecraft:diamond_block. 
+[30Dec2025 03:04:02.669] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.selectedProfile was corrected from null to its default, <CHECK>. 
+[30Dec2025 03:04:02.670] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.selectedCustomJson was corrected from null to its default, . 
+[30Dec2025 03:04:02.670] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.todoQueueSize was corrected from null to its default, 20. 
+[30Dec2025 03:04:02.670] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.forceSaplingGrowth was corrected from null to its default, true. 
+[30Dec2025 03:04:02.670] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.avoidStructures was corrected from null to its default, [minecraft:mansion, minecraft:jungle_pyramid, minecraft:desert_pyramid, minecraft:igloo, minecraft:swamp_huts, minecraft:pillager_outpost]. 
+[30Dec2025 03:04:02.671] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.avoidStructuresAdjacent was corrected from null to its default, false. 
+[30Dec2025 03:04:02.671] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.avoidVillagesAdjacent was corrected from null to its default, false. 
+[30Dec2025 03:04:02.672] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.avoidFlattening was corrected from null to its default, true. 
+[30Dec2025 03:04:02.674] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.674] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.675] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[30Dec2025 03:04:02.676] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[30Dec2025 03:04:02.676] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[30Dec2025 03:04:02.687] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[30Dec2025 03:04:02.688] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/tacz-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.688] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interact_key was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.688] [Thread-3/INFO] [Puzzles Lib/]: Reloading server config for mutantmonsters
+[30Dec2025 03:04:02.688] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interact_key.InteractKeyWhitelistBlocks was corrected from null to its default, []. 
+[30Dec2025 03:04:02.689] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interact_key.InteractKeyWhitelistEntities was corrected from null to its default, []. 
+[30Dec2025 03:04:02.689] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interact_key.InteractKeyBlacklistBlocks was corrected from null to its default, []. 
+[30Dec2025 03:04:02.689] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key interact_key.InteractKeyBlacklistEntities was corrected from null to its default, []. 
+[30Dec2025 03:04:02.690] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key base_multiplier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.690] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key base_multiplier.DamageBaseMultiplier was corrected from null to its default, 1.0. 
+[30Dec2025 03:04:02.691] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key base_multiplier.ArmorIgnoreBaseMultiplier was corrected from null to its default, 1.0. 
+[30Dec2025 03:04:02.691] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key base_multiplier.HeadShotBaseMultiplier was corrected from null to its default, 1.0. 
+[30Dec2025 03:04:02.691] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key base_multiplier.WeightSpeedMultiplier was corrected from null to its default, 0.015. 
+[30Dec2025 03:04:02.691] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.692] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.HeadShotAABB was corrected from null to its default, []. 
+[30Dec2025 03:04:02.694] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.AmmoBoxStackSize was corrected from null to its default, 3. 
+[30Dec2025 03:04:02.694] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.ClientGunPackDownloadUrls was corrected from null to its default, []. 
+[30Dec2025 03:04:02.694] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.EnableCrawl was corrected from null to its default, true. 
+[30Dec2025 03:04:02.697] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[30Dec2025 03:04:02.699] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[30Dec2025 03:04:02.699] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[30Dec2025 03:04:02.700] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[30Dec2025 03:04:02.700] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[30Dec2025 03:04:02.700] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[30Dec2025 03:04:02.700] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[30Dec2025 03:04:02.700] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[30Dec2025 03:04:02.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cofh_core-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.Crafting Permission Level was corrected from null to its default, 2. 
+[30Dec2025 03:04:02.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.EnderChest Permission Level was corrected from null to its default, 2. 
+[30Dec2025 03:04:02.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.Heal Permission Level was corrected from null to its default, 2. 
+[30Dec2025 03:04:02.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.Ignite Permission Level was corrected from null to its default, 2. 
+[30Dec2025 03:04:02.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.Repair Permission Level was corrected from null to its default, 2. 
+[30Dec2025 03:04:02.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Improved Feather Falling was corrected from null to its default, true. 
+[30Dec2025 03:04:02.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Improved Mending was corrected from null to its default, true. 
+[30Dec2025 03:04:02.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Holding was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2025 03:04:02.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Holding.Enable was corrected from null to its default, true. 
+[30Dec2025 03:04:02.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Holding.Treasure was corrected from null to its default, false. 
+[30Dec2025 03:04:02.706] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Holding.Max Level was corrected from null to its default, 4. 
+[30Dec2025 03:04:02.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/securitycraft-server.toml is not correct. Correcting
+[30Dec2025 03:04:02.711] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key codebreaker_chance was corrected from null to its default, 0.33. 
+[30Dec2025 03:04:02.713] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, true. 
+[30Dec2025 03:04:02.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
+[30Dec2025 03:04:02.715] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
+[30Dec2025 03:04:02.717] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
+[30Dec2025 03:04:02.719] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
+[30Dec2025 03:04:02.720] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
+[30Dec2025 03:04:02.722] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 3. 
+[30Dec2025 03:04:02.723] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
+[30Dec2025 03:04:02.724] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
+[30Dec2025 03:04:02.725] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
+[30Dec2025 03:04:02.726] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
+[30Dec2025 03:04:02.727] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
+[30Dec2025 03:04:02.728] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_team_ownership was corrected from null to its default, false. 
+[30Dec2025 03:04:02.729] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key team_ownership_precedence was corrected from null to its default, [FTB_TEAMS, VANILLA]. 
+[30Dec2025 03:04:02.729] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_thanks_message was corrected from null to its default, false. 
+[30Dec2025 03:04:02.730] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trick_scanners_with_player_heads was corrected from null to its default, false. 
+[30Dec2025 03:04:02.730] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_reinforced_floor_glitching was corrected from null to its default, false. 
+[30Dec2025 03:04:02.731] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_damage was corrected from null to its default, 1.0. 
+[30Dec2025 03:04:02.731] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_damage was corrected from null to its default, 2.0. 
+[30Dec2025 03:04:02.732] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_effects was corrected from null to its default, [minecraft:weakness|200|2, minecraft:nausea|200|2, minecraft:slowness|200|2]. 
+[30Dec2025 03:04:02.733] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_effects was corrected from null to its default, [minecraft:weakness|400|5, minecraft:nausea|400|5, minecraft:slowness|400|5]. 
+[30Dec2025 03:04:02.733] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laser_damage was corrected from null to its default, 10.0. 
+[30Dec2025 03:04:02.734] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incorrectPasscodeDamage was corrected from null to its default, 4. 
+[30Dec2025 03:04:02.735] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_bullet_damage was corrected from null to its default, 2. 
+[30Dec2025 03:04:02.735] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_suffocation_damage was corrected from null to its default, 5. 
+[30Dec2025 03:04:02.736] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_camera_night_vision was corrected from null to its default, true. 
+[30Dec2025 03:04:02.737] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_check_cooldown was corrected from null to its default, 250. 
+[30Dec2025 03:04:02.737] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning_enabled was corrected from null to its default, true. 
+[30Dec2025 03:04:02.738] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning was corrected from null to its default, Player "%1$s" tried to enter a passcode into "%2$s" at position [%3$s] too quickly!. 
+[30Dec2025 03:04:02.739] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key in_world_un_reinforcing was corrected from null to its default, true. 
+[30Dec2025 03:04:02.740] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_viewing_enabled was corrected from null to its default, true. 
+[30Dec2025 03:04:02.741] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_view_distance was corrected from null to its default, 16. 
+[30Dec2025 03:04:02.741] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_forceloading_limit was corrected from null to its default, -1. 
+[30Dec2025 03:04:02.742] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla_tool_block_breaking was corrected from null to its default, true. 
+[30Dec2025 03:04:02.743] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key always_drop was corrected from null to its default, true. 
+[30Dec2025 03:04:02.744] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_breaking_non_owned_blocks was corrected from null to its default, false. 
+[30Dec2025 03:04:02.745] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key non_owned_breaking_slowdown was corrected from null to its default, 1.0. 
+[30Dec2025 03:04:02.746] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_allowlist was corrected from null to its default, []. 
+[30Dec2025 03:04:02.747] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_denylist was corrected from null to its default, []. 
+[30Dec2025 03:04:02.797] [Server thread/INFO] [Framework/]: Loading server configs...
+[30Dec2025 03:04:02.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Dec2025 03:04:11.001] [Server thread/INFO] [incontrol/]: Reading rules from areas.json
+[30Dec2025 03:04:11.007] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[30Dec2025 03:04:11.008] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[30Dec2025 03:04:11.010] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[30Dec2025 03:04:11.011] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[30Dec2025 03:04:11.012] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[30Dec2025 03:04:11.013] [Server thread/INFO] [incontrol/]: Reading rules from effects.json
+[30Dec2025 03:04:11.014] [Server thread/INFO] [incontrol/]: Reading rules from breakevents.json
+[30Dec2025 03:04:11.015] [Server thread/INFO] [incontrol/]: Reading rules from placeevents.json
+[30Dec2025 03:04:11.016] [Server thread/INFO] [incontrol/]: Reading rules from rightclicks.json
+[30Dec2025 03:04:11.017] [Server thread/INFO] [incontrol/]: Reading rules from leftclicks.json
+[30Dec2025 03:04:11.019] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[30Dec2025 03:04:11.020] [Server thread/INFO] [incontrol/]: Reading rules from events.json
+[30Dec2025 03:04:15.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Dec2025 03:04:15.391] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[30Dec2025 03:04:20.386] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:04:22.356] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:04:41.610] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1536309 ms
+[30Dec2025 03:04:41.610] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (38.958s)! For help, type "help"
+[30Dec2025 03:04:41.647] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Dec2025 03:04:41.649] [Server thread/INFO] [com.technicboyman.nobz.nobabyzombies1_20_1forge.Nobabyzombies1_20_1forge/]: HELLO from server starting
+[30Dec2025 03:04:41.652] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: forgivingworld.json
+[30Dec2025 03:04:41.653] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[30Dec2025 03:04:41.658] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[30Dec2025 03:08:16.301] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: papuvk[/127.132.11.64:60245] logged in with entity id 609 at (-31.5, 75.0, 135.5)
+[30Dec2025 03:08:16.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: papuvk joined the game
+[30Dec2025 03:08:19.613] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:08:22.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.364] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.364] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.366] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.366] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.366] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:08:22.366] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.367] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.367] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.367] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.367] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.368] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.368] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.368] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.368] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.368] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.369] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.369] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:08:22.369] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.369] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.370] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:08:22.370] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.370] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:08:22.370] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[30Dec2025 03:08:22.371] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.371] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.372] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.372] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.372] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.372] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.373] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.373] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.373] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.373] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:08:22.373] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[30Dec2025 03:09:08.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [papuvk: Set own game mode to Creative Mode]
+[30Dec2025 03:09:22.897] [Worker-Main-10/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:09:26.910] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:09:40.621] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:09:42.437] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:09:42.912] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:10:13.928] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element #structure_gel:lake_proof (minecraft:igloo) took 18 ms
+[30Dec2025 03:10:17.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [papuvk: Teleported papuvk to 256.500000, 130.009986, 112.500000]
+[30Dec2025 03:10:18.935] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:10:21.775] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aventor06[/127.158.87.255:36229] logged in with entity id 3316 at (-39.5, 77.0, 133.5)
+[30Dec2025 03:10:21.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aventor06 joined the game
+[30Dec2025 03:10:26.224] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:10:43.514] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:10:54.835] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:10:58.181] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2571ms or 51 ticks behind
+[30Dec2025 03:10:58.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aventor06 has made the advancement [Minecraft Comes Alive]
+[30Dec2025 03:11:00.307] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:11:02.184] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:11:15.486] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:11:17.673] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:11:18.316] [Worker-Main-10/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:11:30.632] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:11:32.951] [Worker-Main-10/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:11:45.358] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:plains took 25 ms
+[30Dec2025 03:11:48.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [papuvk: Teleported papuvk to 873.500000, 105.000000, -346.500000]
+[30Dec2025 03:12:09.342] [Worker-Main-10/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:12.108] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:15.450] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:18.966] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:22.299] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:23.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aventor06 has made the advancement ['X' Marks the Spot]
+[30Dec2025 03:12:25.771] [Worker-Main-10/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:29.742] [Worker-Main-10/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:39.632] [Worker-Main-10/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:40.950] [Worker-Main-10/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:41.533] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:44.910] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id left__dead:stalker
+[30Dec2025 03:12:59.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aventor06 has made the advancement [Suit Up]

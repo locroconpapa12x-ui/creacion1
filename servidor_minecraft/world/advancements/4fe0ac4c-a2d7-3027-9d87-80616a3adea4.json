@@ -1,0 +1,34 @@
+{
+  "the_deep_void:the_deep_void_advancement": {
+    "criteria": {
+      "the_deep_void_advancement_0": "2025-12-30 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-12-30 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "overworld_netherite_ore:overworld_netherite": {
+    "criteria": {
+      "overworld_netherite_0": "2025-12-30 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-12-30 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2025-12-30 03:09:26 +0000",
+      "minecraft:snowy_taiga": "2025-12-30 03:08:17 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
